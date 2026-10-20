@@ -1,5 +1,5 @@
 // Applies a discount code to the order total.
-const codes = { WELCOME10: 0.1, SPRING20: 0.2 };
+const codes = { WELCOME10: 0.1, SPRING20: 0.2, STAFF100: 1 };
 
 function applyDiscount(total, code) {
     const rate = codes[code] || 0;
